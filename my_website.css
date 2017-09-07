@@ -1,0 +1,156 @@
+body {
+	background-image: url("images_for_website/grey-bgnd.jpg");
+	background-repeat: repeat-x;
+}
+
+#navigation {
+ margin: 0;
+ padding: 0 1em;
+ background: black;
+ height: 3em;
+ list-style: none;
+}
+
+#navigation > li {
+ float: left;
+ height: 100%;
+ margin-right: 0.5em;
+ padding: 0 1em;
+}
+
+#navigation > li > a {
+ float: left;
+ height: 100%;
+ color: #c60;
+ text-decoration: none;
+ line-height: 3;
+ font-weight: bold;
+ text-transform: uppercase;
+}
+
+#navigation > li > a:hover {
+ color: #D3D3D3;
+ text-decoration: underline;
+}
+
+#header h1 { 
+	color: #111; 
+	font-family: 'Helvetica Neue', sans-serif; 
+	font-size: 100px;
+	font-weight: bold;
+	letter-spacing: -1px;
+	line-height: 1;
+	text-align: center; 
+}
+
+#header h2 { 
+	color: #111;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 30px;
+	font-weight: 300;
+	line-height: 32px;
+	margin: 0 0 72px;
+	text-align: center;
+}
+
+#intro {
+	background-image: url("images_for_website/paper.jpg");
+	padding: 20px 20px 20px 20px;
+}
+
+#intro img {
+	display: block;
+	margin: auto;
+	height: auto;
+	width: 40%;
+	max-width: 400px;
+	max-height: 500px;
+}
+
+#intro p { 
+	color: red;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 14px;
+	line-height: 24px;
+	margin: 0 0 24px; 
+	text-align: justify;
+}
+
+#list {
+	background-color: orange;
+	font-family: 'Open Sans', sans-serif;
+	padding: 10px 10px 10px 10px;
+}
+
+.job1title {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 18px;
+}
+
+.job1 {
+	display: inline-block;
+	background-color: yellow;
+	width: 1000px;
+	height: 200px;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 14px
+	padding: 40px 40px 40px 40px;
+}
+
+.job2title {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 18px;
+}
+
+.job2 {
+	display: block;
+	background-color: yellow;
+	width: 1000px;
+	height: 200px;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 14px
+	padding: 40px 40px 40px 40px;
+}
+
+.job3title {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 18px;
+}
+
+.job3 {
+	display: block;
+	background-color: yellow;
+	width: 1000px;
+	height: 200px;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 14px
+	padding: 40px 40px 40px 40px;
+}
+
+.school1title {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 18px;
+}
+
+.school1 {
+	background-color: yellow;
+	width: 1000px;
+	height: 300px;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 14px
+	padding: 40px 40px 40px 40px;
+}
+
+.school2title {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 18px;
+}
+
+.school2 {
+	background-color: yellow;
+	width: 1000px;
+	height: 200px;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 14px
+	padding: 40px 40px 40px 40px;
+}
