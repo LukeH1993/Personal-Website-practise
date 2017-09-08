@@ -44,13 +44,17 @@ body{
   font-size:100%;
   font-weight:normal;
 }
+
 #experience_section ul,li{
   list-style:none;
 }
+
 #experience_section ul{
   overflow:hidden;
   padding:3em;
 }
+
+/*Post-It Note Image.*/
 #experience_section ul li a{
   text-decoration:none;
   color:#000;
@@ -66,24 +70,29 @@ body{
   -o-transition:-o-transform .15s linear;
   -webkit-transition:-webkit-transform .15s linear;
 }
+
 #experience_section ul li{
   margin:1em;
   float:left;
 }
+
 #experience_section ul li h2{
   font-size:140%;
   font-weight:bold;
   padding-bottom:10px;
 }
+
 #experience_section ul li p{
   font-family:"Reenie Beanie",arial,sans-serif;
-  font-size:180%;
+  font-size:100%;
 }
+
 #experience_section ul li a{
   -webkit-transform: rotate(-6deg);
   -o-transform: rotate(-6deg);
   -moz-transform:rotate(-6deg);
 }
+
 #experience_section ul li:nth-child(even) a{
   -o-transform:rotate(4deg);
   -webkit-transform:rotate(4deg);
@@ -92,6 +101,7 @@ body{
   top:5px;
   background:#cfc;
 }
+
 #experience_section ul li:nth-child(3n) a{
   -o-transform:rotate(-3deg);
   -webkit-transform:rotate(-3deg);
@@ -100,6 +110,7 @@ body{
   top:-5px;
   background:#ccf;
 }
+
 #experience_section ul li:nth-child(5n) a{
   -o-transform:rotate(5deg);
   -webkit-transform:rotate(5deg);
@@ -107,6 +118,7 @@ body{
   position:relative;
   top:-10px;
 }
+
 #experience_section ul li a:hover,ul li a:focus{
   box-shadow:10px 10px 7px rgba(0,0,0,.7);
   -moz-box-shadow:10px 10px 7px rgba(0,0,0,.7);
@@ -117,6 +129,16 @@ body{
   position:relative;
   z-index:5;
 }
-#experience_section ol{text-align:center;}
-#experience_section ol li{display:inline;padding-right:1em;}
-#experience_section ol li a{color:#fff;}
+
+/*Ordered List*/
+#experience_section ol {
+  text-align:center;
+}
+
+#experience_section ol li {
+  display:inline;padding-right:1em;
+}
+
+#experience_section ol li a {
+  color:#fff;
+}
