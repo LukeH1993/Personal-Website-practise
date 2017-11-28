@@ -16,10 +16,10 @@ All you will need to access this website is to clone this repository and run ind
 As this website is for practise, there are currently no plans for deployment. With this being said, I have plans to develop a fully functional web application for my personal profile.
 
 ## Built With
-This web application was built with the following web technologies:
+This web application was built in Sublime Text with the following web technologies:
 
-  * HTML
-  * CSS
+* HTML
+* CSS
 
 ## Authors
 Luke Heudebourck - created in September 2017.
